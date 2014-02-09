@@ -164,10 +164,12 @@ if(!empty($_POST)){
 						 </td>
 						 <td align="left">
 					     <select name="expansion">
+						 <option value="<?php echo $wam_expansion_mop; ?>"<?php if($user_check_expansion == $wam_expansion_mop){ echo "SELECTED"; } ?>>Mist of Pandoria</option>
+						 <option value="<?php echo $wam_expansion_cataclysm; ?>"<?php if($user_check_expansion == $wam_expansion_cataclysm){ echo "SELECTED"; } ?>>Cataclysm</option>
 						 <option value="<?php echo $wam_expansion_wotlk; ?>"<?php if($user_check_expansion == $wam_expansion_wotlk){ echo "SELECTED"; } ?>>WOTLK</option>
-						 <option value="<?php echo $wam_expansion_bc; ?>"<?php if($user_check_expansion == $wam_expansion_bc){ echo "SELECTED"; } ?>>BC</option>
+						 <option value="<?php echo $wam_expansion_bc; ?>"<?php if($user_check_expansion == $wam_expansion_bc){ echo "SELECTED"; } ?>>Burning Crusade</option>
 						 <option value="<?php echo $wam_expansion_classic; ?>"<?php if($user_check_expansion == $wam_expansion_classic){ echo "SELECTED"; } ?>>Classic</option>
-						 </select><font class="mini"><a href="#" title="Wählen sie hier ihre WoW Erweiterung standart mäßig WOTLK auswählen">[?]</a></font>
+						 </select><font class="mini"><a href="#" title="Wählen sie hier ihre WoW Erweiterung standart mäßig Cataclysm auswählen">[?]</a></font>
 						 </td>
 					   </tr>
 					   <tr>
