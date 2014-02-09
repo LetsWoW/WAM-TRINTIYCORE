@@ -114,7 +114,7 @@ require_once("wam-include/header.php");
       <tr>
         <td>
 		
-		2010 &copy; Pradox - <a target="_blank" href="http://wam.nwhost.hu/">Web Account Manager</a><br />2011 Deutsche Übersetzung Saugjunkie für - <a target="_blank" href="http://lightning-death.de/"> lightning-death </a>
+		2010 &copy; Pradox - <a target="_blank" href="http://wam.nwhost.hu/">Web Account Manager</a><br />2014 &copy; Let's WoW <a target="_blank" href="http://lets-wow.de/"> Let's WoW Homepage </a>
 
 <?
 ///////////////////////////////////////////////////////////////
