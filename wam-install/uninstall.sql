@@ -1,0 +1,1 @@
+ALTER TABLE `account` DROP `wam_id`;

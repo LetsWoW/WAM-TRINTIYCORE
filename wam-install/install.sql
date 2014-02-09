@@ -1,0 +1,1 @@
+ALTER TABLE `account` ADD `wam_id` VARCHAR( 32 ) NOT NULL AFTER `id`;

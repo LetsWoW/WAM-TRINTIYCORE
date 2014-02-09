@@ -1,0 +1,51 @@
+/*
+
+Írta: Pradox
+
+*/
+
+body{ background-image:url("images/background.jpg"); background-position:top center; margin:0px; }
+table.site{ width:800px; } /* Az account manager szélessége */
+table.header{ width:100%; margin:30px 0 20px 0; text-align:left; }
+table.header img{ border:0px; }
+table.body{ box-shadow: 10px 10px 5px #888; background-color:#2f2f2f; width:100%; border:1px solid #000; padding:5px; }
+table.body-footer{ margin-bottom:10px; background-color:#000; -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px; -webkit-border-bottom-left-radius:5px; -webkit-border-bottom-right-radius:5px; padding:3px 7px; font-family:arial; font-size:11px; color:#fff; }
+table.body-header{ background-color:#000; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; padding:3px 7px; font-family:arial; font-size:11px; color:#fff; margin-right:20px; }
+table.body-header2{ background-color:#000; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; padding:3px 7px; font-family:arial; font-size:11px; color:#fff; margin-left:20px; }
+a:link, a:visited{ color:#5ad2ea; text-decoration:none; }
+a:active, a:hover{ color:#fff; text-decoration:none; }
+a.dark:link, a.dark:visited{ color:#5c5c5c; text-decoration:none; }
+a.dark:active, a.dark:hover{ color:#acacac; text-decoration:none; }
+table.body2{ width:100%; }
+td.body2-left{ width:25%; vertical-align:top; }
+td.body2-right{ width:75%; padding-left:5px; vertical-align:top; }
+table.nav{ width:100%; background-color:#1d1d1d; margin:0 0 5px 0; }
+ul.nav{ text-shadow:1px 1px 1px #000; list-style:none; margin:0px; padding:0 0 5px 0; text-align:left; }
+li.nav-title{ background-color:#000; padding:6px; font-size:13px; font-family:arial; color:#fff; margin:2px; font-weight:bold; }
+ul.nav a{ display:block; background-color:#161616; padding:4px 6px 4px 6px; font-size:12px; font-family:arial; color:#5ad2ea; font-weight:bold; }
+ul.nav a:hover{ display:block; background-color:#111111; padding:4px 6px 4px 6px; font-size:12px; font-family:arial; color:#fff; font-weight:bold; }
+div.dotted-line{ border-bottom:1px dotted #5b5b5b; margin:0 5px 0 5px; }
+img.nav-icon{ float:right; }
+table.body3{ width:100%; background-color:#1d1d1d; border-spacing: 2px; }
+td.body3-title{ text-align:left; background-color:#000; padding:6px; font-size:13px; font-family:arial; color:#fff;font-weight:bold; }
+td.body3-body{ background-color:#161616; font-size:13px; font-family:arial; color:#e1e1e1; padding:7px; line-height:18px; text-shadow:1px 1px 1px #000; }
+table.location-info{ width:100%; color:#cecece; font-size:11px; background-color:#2f2f2f; -moz-border-radius:5px; -webkit-border-bottom:5px; padding:3px; text-shadow:1px 1px 1px #000; margin-bottom:7px; }
+td.location-info-img{ width:5%; vertical-align:center; text-align:center; }
+td.location-info-text{ width:95%; vertical-align:center; text-align:left; line-height:15px; }
+input{ border:0px; background-color:#050505; font-family:arial; color:#c7c7c7; padding:2px; width:120px; border:1px solid #2f2f2f; }
+textarea.normal{ font-size:13px; border:0px; background-color:#050505; font-family:arial; color:#c7c7c7; padding:2px; border:1px solid #2f2f2f; }
+input.normal{ font-size:13px; border:0px; background-color:#050505; font-family:arial; color:#c7c7c7; padding:2px; width:150px; border:1px solid #2f2f2f; }
+input.input-sbm{ font-size:13px; border:0px; background-image:url("images/input-bg.png"); font-family:arial; color:#c7c7c7; width:auto; border:1px solid #2f2f2f; }
+input.input-checkbox{ width:auto; }
+select{ border:0px; background-color:#050505; font-family:arial; color:#c7c7c7; padding:2px; border:1px solid #2f2f2f; }
+font.mini{ font-size:11px; }
+font.bigbold{ font-weight:bold; font-size:14px; }
+div#qTip { padding:4px; border:1px solid #2f2f2f; display:none; background:#050505; color:#c7c7c7; font-family:arial; text-align:left; position:absolute; z-index:1000; font-size:12px; }
+table.body4{ width:100%; border-spacing: 2px; }
+table.body4 td{ background-color:#282828; padding:4px; font-size:13px; }
+table.body5{ width:100%; border-spacing: 2px; }
+table.body6{ width:100%; border-spacing: 1px; }
+table.body6 td{ background-color:#282828; padding:2px 2px 2px 5px; font-size:12px; }
+tr.show td{ background-color:#000; border:1px dotted #710000; }
+td.top-rank{ color:#00d2ff; }
+tr.body6-top td{ text-align:center; font-size:14px; font-weight:bold; background-color:#222; }

@@ -1,0 +1,29 @@
+A WAM TELEPÍTÉSE
+
+    - 1.: Állítsuk be a WAM-INCLUDE mappában lévõ SETTINGS.PHP fájlt!
+    - 2.: Futassuk az accountokat tároló adatbázisban a WAM-INSTALL mappában lévõ INSTALL.SQL fájlt!
+    - 3.: Másoljuk fel a programot az FTP szerverre!
+	
+A WAM ELTÁVOLÍTÁSA
+
+    - 1.: Töröljök a programot az FTP szerverrõl!
+    - 2.: Futassuk az accountokat tároló adatbázisban a WAM-INSTALL mappában lévõ UNINSTALL.SQL fájlt!
+	
+A WAM FRISSÍTÉSE
+
+    - 1.: Távolítsuk el a programot A WAM ELTÁVOLÍTÁSA címû rész alapján.
+    - 2.: Töltsük le az újabb verziót, majd csomagoljuk ki!
+    - 3.: Állítsuk be a WAM-INCLUDE mappában lévõ SETTINGS.PHP fájlt!
+    - 2.: Futassuk az accountokat tároló adatbázisban a WAM-INSTALL mappában lévõ INSTALL.SQL fájlt!
+    - 5.: Másoljuk fel a programot az FTP szerverre!
+	
+FONTOS TUDNIVALÓK
+
+    - Az "érzékeny" funkciók (mint például az item addolás) az új patchek hatására mûködésképtelenné válhatnak. Ennek oka, hogy a mûveletek során módosított       SQL adatok gyakran, az új patchek hatására változhatnak.
+
+INFORMÁCIÓK
+
+    - Készítõ: Kálmán Roland (Pradox)
+    - Porjekt weblap: http://wam.nwhost.hu/
+    - MSN: pradox@index.hu
+    - E-Mail: pradoxblog@gmail.com
