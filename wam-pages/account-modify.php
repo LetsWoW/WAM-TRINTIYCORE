@@ -164,6 +164,8 @@ if(!empty($_POST)){
 						 </td>
 						 <td align="left">
 					     <select name="expansion">
+						<option value="<?php echo $wam_expansion_legion; ?>"<?php if($user_check_expansion == $wam_expansion_mop){ echo "SELECTED"; } ?>>Legion</option>
+						<option value="<?php echo $wam_expansion_wod; ?>"<?php if($user_check_expansion == $wam_expansion_mop){ echo "SELECTED"; } ?>>Warlords of Draenor</option>
 						 <option value="<?php echo $wam_expansion_mop; ?>"<?php if($user_check_expansion == $wam_expansion_mop){ echo "SELECTED"; } ?>>Mist of Pandoria</option>
 						 <option value="<?php echo $wam_expansion_cataclysm; ?>"<?php if($user_check_expansion == $wam_expansion_cataclysm){ echo "SELECTED"; } ?>>Cataclysm</option>
 						 <option value="<?php echo $wam_expansion_wotlk; ?>"<?php if($user_check_expansion == $wam_expansion_wotlk){ echo "SELECTED"; } ?>>WOTLK</option>
